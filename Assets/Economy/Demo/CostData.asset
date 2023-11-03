@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a91c5a71c214f7eb2227119a80b492d, type: 3}
+  m_Name: CostData
+  m_EditorClassIdentifier: 
+  levels: {x: 1, y: 20}
+  costPerLevelCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 20
+      inSlope: 6
+      outSlope: 6
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 2
+      value: 26
+      inSlope: 6.5
+      outSlope: 6.5
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 3
+      value: 33
+      inSlope: 8.5
+      outSlope: 8.5
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 4
+      value: 43
+      inSlope: 11
+      outSlope: 11
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 5
+      value: 55
+      inSlope: 13.5
+      outSlope: 13.5
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 6
+      value: 70
+      inSlope: 17.5
+      outSlope: 17.5
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 7
+      value: 90
+      inSlope: 25
+      outSlope: 25
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 8
+      value: 120
+      inSlope: 30
+      outSlope: 30
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 9
+      value: 150
+      inSlope: 35
+      outSlope: 35
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 10
+      value: 190
+      inSlope: 45
+      outSlope: 45
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 11
+      value: 240
+      inSlope: 60
+      outSlope: 60
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 12
+      value: 310
+      inSlope: 80
+      outSlope: 80
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 13
+      value: 400
+      inSlope: 105
+      outSlope: 105
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 14
+      value: 520
+      inSlope: 130
+      outSlope: 130
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 15
+      value: 660
+      inSlope: 165
+      outSlope: 165
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 16
+      value: 850
+      inSlope: 220
+      outSlope: 220
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 17
+      value: 1100
+      inSlope: 275
+      outSlope: 275
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 18
+      value: 1400
+      inSlope: 350
+      outSlope: 350
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 19
+      value: 1800
+      inSlope: 450
+      outSlope: 450
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 20
+      value: 2300
+      inSlope: 500
+      outSlope: 500
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  costCalculator: {fileID: 11400000, guid: bb5ec5d191822244388042c665c986e2, type: 2}
+  levelCosts:
+  - level: 1
+    cost: 20
+  - level: 2
+    cost: 26
+  - level: 3
+    cost: 33
+  - level: 4
+    cost: 43
+  - level: 5
+    cost: 55
+  - level: 6
+    cost: 70
+  - level: 7
+    cost: 90
+  - level: 8
+    cost: 120
+  - level: 9
+    cost: 150
+  - level: 10
+    cost: 190
+  - level: 11
+    cost: 240
+  - level: 12
+    cost: 310
+  - level: 13
+    cost: 400
+  - level: 14
+    cost: 520
+  - level: 15
+    cost: 660
+  - level: 16
+    cost: 850
+  - level: 17
+    cost: 1100
+  - level: 18
+    cost: 1400
+  - level: 19
+    cost: 1800
+  - level: 20
+    cost: 2300
